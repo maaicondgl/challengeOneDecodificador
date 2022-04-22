@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/162b81ecbe.js" crossorigin="anonymous"></script>
+    <title>Chellenge#1</title>
+</head>
+
+<body>
+
+    <canvas width="600px" height="400px"></canvas>
+
+    <div class="container">
+        <div class="perfil"> <a class="nome" href="https://www.linkedin.com/in/maicon-douglas-a259a4215/" target="_blank">MaiconDouglas</a>
+            <a href="https://github.com/maaicondgl" target="_blank">
+                <i class="bi bi-github"><img src="https://img.icons8.com/material-outlined/50/000000/github.png"></i>
+            </a>
+            <a href="https://www.facebook.com/maaicon.douglas.961/" target="_blank">
+                <i class="bi bi-facebook"><img src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png"></i>
+            </a>
+        </div>
+        <a href="https://www.alura.com.br/"><img class="logo" src="./img/Vector.png"></a>
+
+        <textarea class="entrada" id="inputText" placeholder="Digite seu texto"></textarea>
+
+        <div class="buttons">
+            <span><i class="fa-solid fa-circle-exclamation"></i>Apenas letras minúsculas e sem acento.</span>
+            <button class="bt" id="bCriptografar">Criptografar</button>
+            <button class="bt" id="bDescriptografar">Descriptografar</button>
+        </div>
+
+        <div class="exibirMsg">
+            <div class="msg">
+                <p id="msgP">
+                </p>
+            </div>
+            <div class="divImg">
+                <div>
+                    <img src="./img/fundo.jpg">
+                </div>
+                <div class="divText">
+                    <h3>Nenhuma mensagem<br>encontrada</h3>
+                    <p>Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+                </div>
+            </div>
+
+            <div class="divBotao">
+                <button id="copia" class="bt">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="matrix.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

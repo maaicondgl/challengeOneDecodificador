@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;    
+    overflow: hidden;
+    padding: 0;
+    color: darkblue;    
+}
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 20px;    
+    width: 90%;
+    height: 80vh;
+    max-width: 1280px;    
+    min-height: 620px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding: 20px;
+    border-radius: 10px;        
+}
+
+.perfil{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.perfil a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.nome{
+    padding: 10px;
+}
+
+
+.logo{
+    position: absolute;
+    left: 35px;
+}
+
+
+.entrada{
+    position:absolute;
+    top: 120px;
+    left: 130px;    
+    min-height: 35px;
+    width: 47%; 
+    min-width: 250px;
+    height: 320px;   
+    font-size: 1.4rem;
+    text-align: justify;   
+    background-color: transparent;
+    border: none;    
+    color: darkblue;
+    padding-left: 5px;
+    padding-top: 2px;
+    resize: none;    
+}
+textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.buttons{
+    position: absolute;
+    width: 47%;
+    left: 130px;
+    bottom: calc(0% + 20px);
+    margin-bottom: 20px;    
+    color: blue;   
+}
+span{
+    display: block;
+    text-align: left;
+    font-size: 0.7rem;            
+    color: rgba(0,0,0,0.5);
+}
+span i{
+    margin-right: 5px;
+}
+.buttons button:first-of-type{
+    background-color: darkblue;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.exibirMsg{    
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 29%;
+    min-width: 240px;
+    height: calc(100% - 40px);    
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    text-align: center;   
+}
+.msg p{
+    max-height: 430px;
+    overflow: auto;    
+    padding-right: 2px;
+    text-align: left;    
+    color: rgba(0, 0, 0, 0.6);    
+}
+
+
+.divImg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;   
+    
+}
+.divImg div{
+    max-width: 100%;
+}
+.divImg div img{
+    width: 100%;
+}
+.divText{
+    width: 100%;
+    font-size: 0.8rem;          
+}
+.divText h3{
+    font-size: 1.1rem;
+}
+.divText p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+
+.divBotao{
+    position: absolute;
+    display: flex;
+    bottom: 0px;   
+    width: calc(100% - 40px);
+    padding-bottom: 20px;
+    justify-content: center;   
+}
+.divBotao button{    
+    width: 100%;
+    max-width: 269px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.bt{
+    height: 50px;
+    border-radius: 15px;
+    width: calc(100%/2 - 20px);
+    border: 1px solid darkblue;
+    margin-right: 10px;
+    cursor: pointer; 
+    color: darkblue; 
+}
