@@ -10,7 +10,7 @@ const copia = document.querySelector("#copia");
 bCriptografar.addEventListener("click", criptografar);
 bDescriptografar.addEventListener("click", descriptografar);
 copia.addEventListener("click", copiar);
-
+///// Função cripyografar Texto
 function criptografar() {
     let texto = inputText.value;
     let resultado = "";
@@ -42,7 +42,7 @@ function criptografar() {
 
     }
 }
-
+ ///Reverter Criptogradia
 function descriptografar() {
     let texto = inputText.value;
     let resultado = "";
